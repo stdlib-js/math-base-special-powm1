@@ -65,7 +65,7 @@ When `b` is close to `1` and/or `x` is small, this implementation is more accura
 To use in Observable,
 
 ```javascript
-powm1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@umd/browser.js' )
+powm1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -77,7 +77,7 @@ var powm1 = require( 'path/to/vendor/umd/math-base-special-powm1/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -136,7 +136,7 @@ y = powm1( 5.0, NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
