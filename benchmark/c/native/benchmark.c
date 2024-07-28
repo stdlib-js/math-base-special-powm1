@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,17 +16,12 @@
 * limitations under the License.
 */
 
+#include "stdlib/math/base/special/powm1.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
 #include <sys/time.h>
-#include <boost/random/mersenne_twister.hpp>
-#include <boost/random/uniform_real_distribution.hpp>
-#include <boost/math/special_functions/powm1.hpp>
-
-using boost::random::uniform_real_distribution;
-using boost::random::mt19937;
 
 #define NAME "powm1"
 #define ITERATIONS 1000000
@@ -35,7 +30,7 @@ using boost::random::mt19937;
 /**
 * Prints the TAP version.
 */
-void print_version() {
+static void print_version( void ) {
 	printf( "TAP version 13\n" );
 }
 
@@ -45,7 +40,7 @@ void print_version() {
 * @param total     total number of tests
 * @param passing   total number of passing tests
 */
-void print_summary( int total, int passing ) {
+static void print_summary( int total, int passing ) {
 	printf( "#\n" );
 	printf( "1..%d\n", total ); // TAP plan
 	printf( "# total %d\n", total );
@@ -59,7 +54,7 @@ void print_summary( int total, int passing ) {
 *
 * @param elapsed   elapsed time in seconds
 */
-void print_results( double elapsed ) {
+static void print_results( double elapsed ) {
 	double rate = (double)ITERATIONS / elapsed;
 	printf( "  ---\n" );
 	printf( "  iterations: %d\n", ITERATIONS );
@@ -73,10 +68,20 @@ void print_results( double elapsed ) {
 *
 * @return clock time
 */
-double tic() {
+static double tic( void ) {
 	struct timeval now;
 	gettimeofday( &now, NULL );
 	return (double)now.tv_sec + (double)now.tv_usec/1.0e6;
+}
+
+/**
+* Generates a random number on the interval [0,1].
+*
+* @return random number
+*/
+static double rand_double( void ) {
+	int r = rand();
+	return (double)r / ( (double)RAND_MAX + 1.0 );
 }
 
 /**
@@ -84,33 +89,26 @@ double tic() {
 *
 * @return elapsed time in seconds
 */
-double benchmark() {
+static double benchmark( void ) {
 	double elapsed;
+	double b;
 	double x;
 	double y;
-	double z;
 	double t;
 	int i;
 
-	// Define a new pseudorandom number generator:
-	mt19937 rng;
-
-	// Define a uniform distribution for generating pseudorandom numbers as "doubles" between a minimum value (inclusive) and a maximum value (exclusive):
-	uniform_real_distribution<> randu1( 0.0, 2.0 );
-	uniform_real_distribution<> randu2( -50.0, 50.0 );
-
 	t = tic();
 	for ( i = 0; i < ITERATIONS; i++ ) {
-		x = randu1( rng );
-		y = randu2( rng );
-		z = boost::math::powm1( x, y );
-		if ( z != z ) {
+		b = ( rand_double() * 2.0 ) - 0.0;
+		x = ( rand_double() * 100.0 ) - 50.0;
+		y = stdlib_base_powm1( b, x );
+		if ( y != y ) {
 			printf( "should not return NaN\n" );
 			break;
 		}
 	}
 	elapsed = tic() - t;
-	if ( z != z ) {
+	if ( y != y ) {
 		printf( "should not return NaN\n" );
 	}
 	return elapsed;
@@ -123,13 +121,15 @@ int main( void ) {
 	double elapsed;
 	int i;
 
+	// Use the current time to seed the random number generator:
+	srand( time( NULL ) );
+
 	print_version();
 	for ( i = 0; i < REPEATS; i++ ) {
-		printf( "# cpp::boost::%s\n", NAME );
+		printf( "# c::native::%s\n", NAME );
 		elapsed = benchmark();
 		print_results( elapsed );
 		printf( "ok %d benchmark finished\n", i+1 );
 	}
 	print_summary( REPEATS, REPEATS );
-	return 0;
 }
