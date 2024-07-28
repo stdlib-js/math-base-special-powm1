@@ -63,7 +63,7 @@ When `b` is close to `1` and/or `x` is small, this implementation is more accura
 ## Usage
 
 ```javascript
-import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@esm/index.mjs';
+import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@v0.3.0-esm/index.mjs';
 ```
 
 #### powm1( b, x )
@@ -114,7 +114,7 @@ y = powm1( 5.0, NaN );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@esm/index.mjs';
+import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@v0.3.0-esm/index.mjs';
 
 var b;
 var x;
