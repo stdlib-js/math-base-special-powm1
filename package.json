@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-powm1",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Evaluate bˣ - 1.",
   "license": "Apache-2.0 AND BSL-1.0",
   "author": {
@@ -42,9 +42,9 @@
     "@stdlib/math-base-napi-binary": "^0.3.0",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/math-base-special-expm1": "^0.2.3",
-    "@stdlib/math-base-special-fmod": "github:stdlib-js/math-base-special-fmod#main",
+    "@stdlib/math-base-special-fmod": "^0.1.0",
     "@stdlib/math-base-special-ln": "^0.2.4",
-    "@stdlib/math-base-special-pow": "^0.2.1",
+    "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-trunc": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
