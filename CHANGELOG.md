@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-28)
+## Unreleased (2024-07-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`4d208c9`](https://github.com/stdlib-js/stdlib/commit/4d208c9e0131e9c0e15d713828266f50994ec891) - **test:** add missing tests [(#2701)](https://github.com/stdlib-js/stdlib/pull/2701) _(by Gunj Joshi)_
 -   [`a2ad2e1`](https://github.com/stdlib-js/stdlib/commit/a2ad2e1ad4f9150b818e3cf828815d4b73913f59) - **chore:** update package meta data [(#2696)](https://github.com/stdlib-js/stdlib/pull/2696) _(by stdlib-bot, Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Gunj Joshi
 -   Philipp Burckhardt
 
 </section>
