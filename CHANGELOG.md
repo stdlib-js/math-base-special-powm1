@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-29)
+## Unreleased (2024-08-01)
 
 <section class="commits">
 
@@ -12,8 +12,7 @@
 
 <details>
 
--   [`4d208c9`](https://github.com/stdlib-js/stdlib/commit/4d208c9e0131e9c0e15d713828266f50994ec891) - **test:** add missing tests [(#2701)](https://github.com/stdlib-js/stdlib/pull/2701) _(by Gunj Joshi)_
--   [`a2ad2e1`](https://github.com/stdlib-js/stdlib/commit/a2ad2e1ad4f9150b818e3cf828815d4b73913f59) - **chore:** update package meta data [(#2696)](https://github.com/stdlib-js/stdlib/pull/2696) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
 
 </details>
 
@@ -25,10 +24,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Gunj Joshi
--   Philipp Burckhardt
+-   Athan Reines
 
 </section>
 
@@ -38,49 +36,21 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.release -->
 
+<section class="release" id="v0.3.1">
+
+## 0.3.1 (2024-07-31)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-28)
 
-<section class="features">
-
-### Features
-
--   [`62e247d`](https://github.com/stdlib-js/stdlib/commit/62e247daf7eb45f201cad1784619a344cbdcaff6) - add C implementation for `math/base/special/powm1` [(#2660)](https://github.com/stdlib-js/stdlib/pull/2660)
-
-</section>
-
-<!-- /.features -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`62e247d`](https://github.com/stdlib-js/stdlib/commit/62e247daf7eb45f201cad1784619a344cbdcaff6) - **feat:** add C implementation for `math/base/special/powm1` [(#2660)](https://github.com/stdlib-js/stdlib/pull/2660) _(by Gunj Joshi)_
--   [`3e05048`](https://github.com/stdlib-js/stdlib/commit/3e05048df523b9a45e3f0621893d9dd99aae8d9c) - **docs:** remove comment _(by Athan Reines)_
--   [`9ed7d0e`](https://github.com/stdlib-js/stdlib/commit/9ed7d0e7d57edb5ad0dfb65c944bed87d475cbf3) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 3 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Gunj Joshi
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
@@ -110,56 +80,7 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-24)
 
-<section class="features">
-
-### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
--   [`b734544`](https://github.com/stdlib-js/stdlib/commit/b734544a52783cb7f5cf1115f4355cabe46d0abe) - **refactor:** use strictEqual checks _(by Philipp Burckhardt)_
--   [`c5da1f9`](https://github.com/stdlib-js/stdlib/commit/c5da1f9a22b1033d40115798acf13a09acf9410d) - **docs:** render equations via math code blocks _(by Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
