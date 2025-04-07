@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`feb552b`](https://github.com/stdlib-js/stdlib/commit/feb552baaf86a434df4724ab94d587dcac75e482) - **bench:** update random value generation [(#6393)](https://github.com/stdlib-js/stdlib/pull/6393) _(by Harsh)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`6d9ed10`](https://github.com/stdlib-js/stdlib/commit/6d9ed107bc5e674421c5773619a34d5c0fe5a96a) - **chore:** fix C lint errors [(#5291)](https://github.com/stdlib-js/stdlib/pull/5291) _(by GK Bishnoi)_
