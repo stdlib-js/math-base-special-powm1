@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-15)
+## Unreleased (2026-01-30)
 
 <section class="issues">
 
@@ -28,11 +28,11 @@ This release closes the following issue:
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`0240ed9`](https://github.com/stdlib-js/stdlib/commit/0240ed95c31c83898c7605781a2b73e508b8ef71) - **chore:** minor clean-up _(by Philipp Burckhardt)_
--   [`544385d`](https://github.com/stdlib-js/stdlib/commit/544385dd540a06830b51111ac9e61b0aaa81e048) - **docs:** replace manual `for` loop in examples [(#6490)](https://github.com/stdlib-js/stdlib/pull/6490) _(by Harsh)_
+-   [`544385d`](https://github.com/stdlib-js/stdlib/commit/544385dd540a06830b51111ac9e61b0aaa81e048) - **docs:** replace manual `for` loop in examples [(#6490)](https://github.com/stdlib-js/stdlib/pull/6490) _(by Harsh Yadav)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
--   [`feb552b`](https://github.com/stdlib-js/stdlib/commit/feb552baaf86a434df4724ab94d587dcac75e482) - **bench:** update random value generation [(#6393)](https://github.com/stdlib-js/stdlib/pull/6393) _(by Harsh)_
+-   [`feb552b`](https://github.com/stdlib-js/stdlib/commit/feb552baaf86a434df4724ab94d587dcac75e482) - **bench:** update random value generation [(#6393)](https://github.com/stdlib-js/stdlib/pull/6393) _(by Harsh Yadav)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
--   [`6d9ed10`](https://github.com/stdlib-js/stdlib/commit/6d9ed107bc5e674421c5773619a34d5c0fe5a96a) - **chore:** fix C lint errors [(#5291)](https://github.com/stdlib-js/stdlib/pull/5291) _(by GK Bishnoi)_
+-   [`6d9ed10`](https://github.com/stdlib-js/stdlib/commit/6d9ed107bc5e674421c5773619a34d5c0fe5a96a) - **chore:** fix C lint errors [(#5291)](https://github.com/stdlib-js/stdlib/pull/5291) _(by Gopi Kishan)_
 
 </details>
 
@@ -46,8 +46,8 @@ This release closes the following issue:
 
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
--   GK Bishnoi
--   Harsh
+-   Gopi Kishan
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 
