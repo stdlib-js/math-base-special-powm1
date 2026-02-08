@@ -63,7 +63,7 @@ When `b` is close to `1` and/or `x` is small, this implementation is more accura
 ## Usage
 
 ```javascript
-import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@deno/mod.js';
+import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@v0.3.2-deno/mod.js';
 ```
 
 #### powm1( b, x )
@@ -109,7 +109,7 @@ y = powm1( 5.0, NaN );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@deno/mod.js';
+import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@v0.3.2-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
