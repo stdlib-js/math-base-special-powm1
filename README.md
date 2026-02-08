@@ -63,6 +63,11 @@ When `b` is close to `1` and/or `x` is small, this implementation is more accura
 ## Usage
 
 ```javascript
+import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-powm1/tags). For example,
+
+```javascript
 import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@v0.3.2-esm/index.mjs';
 ```
 
@@ -114,7 +119,7 @@ y = powm1( 5.0, NaN );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@v0.3.2-esm/index.mjs';
+import powm1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-powm1@esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
